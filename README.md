@@ -1,12 +1,12 @@
 # Financial Mathematics Project – Investment Optimization
 
-## 📌 Overview
+## Overview
 
 This project presents an algorithmic solution to the problem of maximizing capital over a discrete time horizon by selecting optimal investment strategies. The investor can use a fixed base rate or various long-term investment products with higher returns. The solution relies on dynamic programming and graph modeling.
 
 ---
 
-## 🧠 Mathematical Model
+## Mathematical Model
 
 - **Time Horizon:** Discrete period `T = [0, n]`.
 - **Base Investment:** Interest rate `τ0` applied to each interval `[t, t+1]`.
@@ -42,7 +42,7 @@ Where `N⁻(t)` is the set of all `k` such that `fk = t`.
 
 ---
 
-## 📊 Example (n = 7)
+## Example (n = 7)
 
 ### Data
 
@@ -61,7 +61,7 @@ Where `N⁻(t)` is the set of all `k` such that `fk = t`.
 
 ---
 
-## ⚙️ Implementation
+## Implementation
 
 ### Files & Functions
 
@@ -82,7 +82,7 @@ Where `N⁻(t)` is the set of all `k` such that `fk = t`.
 
 ---
 
-## 🖥️ How to Run
+## How to Run
 
 ```bash
 pip install openpyxl
@@ -95,7 +95,7 @@ Input Excel file must contain:
 
 ---
 
-## 📈 Sample Output
+## Sample Output
 
 - Capital coefficients: `Coef(0) ... Coef(n)`
 - Optimal path: `[start → ... → n]`
@@ -103,14 +103,14 @@ Input Excel file must contain:
 
 ---
 
-## 🧮 Complexity
+## Complexity
 
 - Time complexity: **O(n × m)**  
   (`n`: number of periods, `m`: investment options)
 
 ---
 
-## 👨‍🎓 Authors
+## Authors
 
 Erkin Tunc Boya · Rania Seddouki · Nasrallah Layada  
 Université Clermont Auvergne – Groupe 13  
