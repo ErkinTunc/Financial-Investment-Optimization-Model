@@ -1,5 +1,9 @@
 # Optimal Investment Strategy via DAG Dynamic Programming
 
+This problem arises in discrete-time capital allocation under interval-constrained investment options.  
+Each investment decision corresponds to a transition in time, forming a directed acyclic decision graph.  
+The objective is to compute the globally optimal policy without enumerating exponentially many strategies.
+
 ## One-line
 
 Deterministic investment optimization reduced to a maximum-multiplicative path problem on a time-indexed DAG, solved by dynamic programming with path reconstruction in **O(n + m)** after indexing products by end time.
